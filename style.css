@@ -214,7 +214,7 @@ summary:hover {
 }
 @media (max-device-width:1400px) {
     header {
-        padding: 5px 50px
+        padding: 5px 50px;
     }
     .navigation a {
         padding-left: 20px;
@@ -227,15 +227,24 @@ summary:hover {
 }
 @media (max-width:1300px) {
     header {
-        padding: 5px 50px
+        padding: 5px 50px;
     }
     .navigation a {
-        padding-left: 20px;
+        padding-left: 35px;
     }
     section {
         padding: 80px 35px 0px 35px;
         justify-content: center;
         font-size: 0.71em;
+    }
+    .title {
+        font-size: 3em;
+    }
+    .cont {
+        font-size: 2em;
+    }
+    .intro {
+        font-size: 2em;
     }
 }
 @media (max-device-width:1024px) {
@@ -257,7 +266,7 @@ summary:hover {
     }
     .about {
         margin-top: -25px;
-        font-size: 3em;
+        font-size: 2em;
     }
     .main h3 {
         font-size: 3em;
@@ -270,34 +279,57 @@ summary:hover {
     }
     details p {
         padding-top: 5px;
-        font-size: 1.5em;
+        font-size: 1em;
     }
     summary {
         padding: 5px 5px 5px 10px;
+        font-size: 2em;
+    }
+    .title {
+        font-size: 3em;
+    }
+    .cont {
+        font-size: 2em;
+    }
+    .intro {
+        font-size: 2em;
     }
 }
-@media (max-device-width:400px) {
+@media (max-device-width:700px) {
     header {
-        padding: 0px 10px
+        padding: 5px 30px;
     }
     .navigation a {
         padding-left: 35px;
     }
     .title {
-        font-size: 1.8em;
+        font-size: 2em;
+        padding-top: 15px;
     }
     section {
-        font-size: 0.6em;
+        font-size: 0.7em;
         padding: 80px 20px;
         justify-content: center;
+    }
+    .title {
+        font-size: 3em;
+    }
+    .cont {
+        font-size: 2em;
+    }
+    .intro {
+        font-size: 2em;
     }
 }
 @media (max-device-width:500px) {
     header {
-        padding: 0px 50px
+        padding: 0px 50px;
     }
     .navigation a {
         padding-left: 35px;
+    }
+    .logo {
+        padding-left: 10px;
     }
     .title {
         font-size: 2em;
@@ -307,10 +339,63 @@ summary:hover {
         padding: 80px 20px;
         justify-content: center;
     }
+    .title {
+        font-size: 3em;
+    }
+    .cont {
+        font-size: 2em;
+    }
+    .intro {
+        font-size: 2em;
+    }
+}
+@media (max-device-width:400px) {
+    header {
+        padding: 5px 10px;
+        margin-left: -5px;
+    }
+    .logo {
+        padding-left: 30px;
+    }
+    .navigation a {
+        padding-left: -10px;
+        font-size: 1em;
+    }
+    .title {
+        font-size: 3em;
+    }
+    section {
+        font-size: 0.7em;
+        padding: 50px 20px;
+        justify-content: center;
+    }
+}
+@media (max-device-width:360px) {
+    header {
+        padding: 5px 10px;
+        margin-left: -5px;
+    }
+    .logo {
+        padding-left: 30px;
+    }
+    .navigation a {
+        padding-left: -10px;
+        font-size: 1em;
+    }
+    .title {
+        font-size: 3em;
+        padding-top: 10px;
+    }
+    section {
+        font-size: 0.6em;
+        padding: 50px 20px;
+        justify-content: center;
+    }
 }
 @media (max-device-width:280px) {
     header {
-        padding: 0px 20px;
+        padding: 5px 20px;
+        margin-left: -19px;
     }
     .navigation a {
         padding-left: 15px;
@@ -320,5 +405,14 @@ summary:hover {
         padding: 80px 10px 0px 10px;
         justify-content: center;
         
+    }
+    .title {
+        font-size: 3em;
+    }
+    .cont {
+        font-size: 2em;
+    }
+    .intro {
+        font-size: 2em;
     }
 }
