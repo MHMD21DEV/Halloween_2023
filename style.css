@@ -398,11 +398,11 @@ summary:hover {
 }
 @media (max-width:360px) {
     header {
-        padding: 5px 50px;
+        padding: 5px 45px;
         margin: auto;
     }
     .logo {
-        padding-left: 25px;
+        padding-left: 5px;
     }
     .navigation a {
         padding-left: -10px;
