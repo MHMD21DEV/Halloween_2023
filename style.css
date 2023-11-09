@@ -212,7 +212,7 @@ summary:hover {
     justify-content: center;
     padding: 10px;
 }
-@media (max-device-width:1400px) {
+@media (max-width:1400px) {
     header {
         padding: 5px 50px;
     }
@@ -227,13 +227,14 @@ summary:hover {
 }
 @media (max-width:1300px) {
     header {
-        padding: 5px 50px;
+        padding: 5px 200px;
     }
     .navigation a {
         padding-left: 35px;
     }
     section {
         padding: 80px 35px 0px 35px;
+        margin: 0;
         justify-content: center;
         font-size: 0.71em;
     }
@@ -247,7 +248,7 @@ summary:hover {
         font-size: 2em;
     }
 }
-@media (max-device-width:1024px) {
+@media (max-width:1024px) {
     header {
         padding: 1px 20px 0 20px;
     }
@@ -287,6 +288,7 @@ summary:hover {
     }
     .title {
         font-size: 3em;
+        margin-top: 10px;
     }
     .cont {
         font-size: 2em;
@@ -294,8 +296,11 @@ summary:hover {
     .intro {
         font-size: 2em;
     }
+    .info h3 {
+        font-size: 2em;
+    }
 }
-@media (max-device-width:700px) {
+@media (max-width:700px) {
     header {
         padding: 5px 30px;
     }
@@ -321,12 +326,13 @@ summary:hover {
         font-size: 2em;
     }
 }
-@media (max-device-width:500px) {
+@media (max-width:500px) {
     header {
-        padding: 0px 50px;
+        padding: 5px 45px;
+        margin: 0px;
     }
     .navigation a {
-        padding-left: 35px;
+        padding-left: 25px;
     }
     .logo {
         padding-left: 10px;
@@ -335,7 +341,7 @@ summary:hover {
         font-size: 2em;
     }
     section {
-        font-size: 0.7em;
+        font-size: 0.5em;
         padding: 80px 20px;
         justify-content: center;
     }
@@ -343,16 +349,22 @@ summary:hover {
         font-size: 3em;
     }
     .cont {
-        font-size: 2em;
+        font-size: 3em;
     }
     .intro {
-        font-size: 2em;
+        font-size: 3em;
+    }
+    .card {
+        width: fit-content;
+    }
+    .info h3 {
+        font-size: 3em;
     }
 }
-@media (max-device-width:400px) {
+@media (max-width:400px) {
     header {
         padding: 5px 10px;
-        margin-left: -5px;
+        margin: auto;
     }
     .logo {
         padding-left: 30px;
@@ -362,57 +374,96 @@ summary:hover {
         font-size: 1em;
     }
     .title {
-        font-size: 3em;
-    }
-    section {
-        font-size: 0.7em;
-        padding: 50px 20px;
-        justify-content: center;
-    }
-}
-@media (max-device-width:360px) {
-    header {
-        padding: 5px 10px;
-        margin-left: -5px;
-    }
-    .logo {
-        padding-left: 30px;
-    }
-    .navigation a {
-        padding-left: -10px;
-        font-size: 1em;
-    }
-    .title {
-        font-size: 3em;
-        padding-top: 10px;
-    }
-    section {
-        font-size: 0.6em;
-        padding: 50px 20px;
-        justify-content: center;
-    }
-}
-@media (max-device-width:280px) {
-    header {
-        padding: 5px 20px;
-        margin-left: -19px;
-    }
-    .navigation a {
-        padding-left: 15px;
+        font-size: 5em;
     }
     section {
         font-size: 0.5em;
-        padding: 80px 10px 0px 10px;
+        padding: 50px 20px;
+        justify-content: center;
+    }
+    .main h2 {
+        margin-top: 90px;
+        font-size: 3em;
+    }
+    .about {
+        margin-top: -25px;
+        font-size: 2em;
+    }
+    .main h3 {
+        font-size: 2em;
+    }
+    .info h3 {
+        font-size: 2em;
+    }
+}
+@media (max-width:360px) {
+    header {
+        padding: 5px 50px;
+        margin: auto;
+    }
+    .logo {
+        padding-left: 25px;
+    }
+    .navigation a {
+        padding-left: -10px;
+    }
+    .title {
+        font-size: 5em;
+        padding-top: 10px;
+        margin-top: 55px;
+    }
+    section {
+        font-size: 0.4em;
+        padding: 50px 20px;
+        justify-content: center;
+    }
+    .main h2 {
+        margin-top: 90px;
+        font-size: 3.5em;
+    }
+    .about {
+        margin-top: -25px;
+        font-size: 2.9em;
+    }
+    .main h3 {
+        font-size: 3.5em;
+    }
+    .info h3 {
+        font-size: 3.5em;
+    }
+}
+@media (max-width:280px) {
+    header {
+        padding: 0px 10px 10px;
+        margin: 0px 0px 10px 0px;
+    }
+    .logo {
+        padding-left: 10px;
+    }
+    section {
+        font-size: 0.3em;
+        padding: 50px 10px;
         justify-content: center;
         
     }
+    .main h2 {
+        margin-top: 90px;
+    }
+    .about {
+        margin-top: -25px;
+        font-size: 2.9em;
+    }
     .title {
-        font-size: 3em;
+        font-size: 5em;
+        padding-top: 55px;
     }
     .cont {
-        font-size: 2em;
+        font-size: 3em;
     }
     .intro {
-        font-size: 2em;
+        font-size: 3em;
+    }
+    .card {
+        width: fit-content;
     }
 }
