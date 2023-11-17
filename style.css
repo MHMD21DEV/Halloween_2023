@@ -41,7 +41,7 @@ a:hover {
 }
 
 section {
-    padding: 100px 200px;
+    padding: 100px 100px;
 }
 
 .main {
@@ -73,6 +73,7 @@ section {
 
 abbr {
     color: #AEE749;
+    margin: 0px 5px;
 }
 
 .main h2:hover {
@@ -124,6 +125,7 @@ time, a {
 
 span {
     color: #AEE749;
+    margin: 0px 5px;
 }
 
 details {
@@ -148,7 +150,7 @@ summary {
     padding: 10px;
     text-align: center;
     margin-top: 10px;
-    font-size: 2.7em;
+    font-size: 2.4em;
     font-weight: 600;
     background-color: #472db0;
     border-radius: 25px;
@@ -224,6 +226,10 @@ summary:hover {
         justify-content: center;
         font-size: 0.71em;
     }
+    abbr {
+        color: #AEE749;
+        margin: 0px 5px;
+    }
 }
 @media (max-width:1300px) {
     header {
@@ -235,7 +241,6 @@ summary:hover {
     section {
         padding: 80px 35px 0px 35px;
         margin: 0;
-        justify-content: center;
         font-size: 0.71em;
     }
     .title {
@@ -246,6 +251,10 @@ summary:hover {
     }
     .intro {
         font-size: 2em;
+    }
+    abbr {
+        color: #AEE749;
+        margin: 0px 5px;
     }
 }
 @media (max-width:1024px) {
@@ -299,6 +308,10 @@ summary:hover {
     .info h3 {
         font-size: 2em;
     }
+    abbr {
+        color: #AEE749;
+        margin: 0px 5px;
+    }
 }
 @media (max-width:700px) {
     header {
@@ -324,6 +337,10 @@ summary:hover {
     }
     .intro {
         font-size: 2em;
+    }
+    abbr {
+        color: #AEE749;
+        margin: 0px 5px;
     }
 }
 @media (max-width:500px) {
@@ -360,6 +377,10 @@ summary:hover {
     .info h3 {
         font-size: 3em;
     }
+    abbr {
+        color: #AEE749;
+        margin: 0px 5px;
+    }
 }
 @media (max-width:400px) {
     header {
@@ -391,10 +412,14 @@ summary:hover {
         font-size: 2em;
     }
     .main h3 {
-        font-size: 2em;
+        font-size: 2.7em;
     }
     .info h3 {
         font-size: 2em;
+    }
+    abbr {
+        color: #AEE749;
+        margin: 0px 5px;
     }
 }
 @media (max-width:360px) {
@@ -432,6 +457,10 @@ summary:hover {
     .info h3 {
         font-size: 3.5em;
     }
+    abbr {
+        color: #AEE749;
+        margin: 0px 5px;
+    }
 }
 @media (max-width:280px) {
     header {
@@ -466,5 +495,9 @@ summary:hover {
     }
     .card {
         width: fit-content;
+    }
+    abbr {
+        color: #AEE749;
+        margin: 0px 5px;
     }
 }
