@@ -66,7 +66,7 @@ section {
     justify-content: space-evenly;
     padding: 10px;
     margin-top: 20px;
-    margin-right: 800px;
+    margin-right: 600px;
     box-shadow: 0 5px 25px rgba(1 1 1/ 25%);
     transition: 0.7s ease;
 }
@@ -109,7 +109,7 @@ abbr {
     padding: 10px;
     margin-bottom: 50px;
     margin-top: 10px;
-    margin-right: 900px;
+    margin-right: 700px;
     box-shadow: 0 5px 25px rgba(1 1 1/ 25%);
     transition: 0.7s ease;
 }
@@ -133,7 +133,7 @@ details {
     border-radius: 25px;
     box-shadow: 0 5px 25px rgba(1 1 1/ 25%);
     padding: 10px;
-    margin: 10px 0 10px;
+    margin: 20px 200px;
     transition: 0.7s ease;
 }
 
@@ -147,9 +147,9 @@ details p {
 }
 
 summary {
-    padding: 10px;
+    padding: 20px;
     text-align: center;
-    margin-top: 10px;
+    margin: 10px;
     font-size: 2.4em;
     font-weight: 600;
     background-color: #472db0;
@@ -241,7 +241,7 @@ summary:hover {
     section {
         padding: 80px 35px 0px 35px;
         margin: 0;
-        font-size: 0.71em;
+        font-size: 0.6em;
     }
     .title {
         font-size: 3em;
@@ -293,7 +293,7 @@ summary:hover {
     }
     summary {
         padding: 5px 5px 5px 10px;
-        font-size: 2em;
+        font-size: 2.5em;
     }
     .title {
         font-size: 3em;
@@ -462,18 +462,25 @@ summary:hover {
         margin: 0px 5px;
     }
 }
+@media (max-width:360px) {
+    header {
+        padding: 10px;
+    }
+    section {
+        font-size: 0.3em;
+    }
+}
 @media (max-width:280px) {
     header {
         padding: 0px 10px 10px;
-        margin: 0px 0px 10px 0px;
+        font-size: 0.8em;
     }
     .logo {
         padding-left: 10px;
     }
     section {
-        font-size: 0.3em;
+        font-size: 0.2em;
         padding: 50px 10px;
-        justify-content: center;
         
     }
     .main h2 {
@@ -481,7 +488,7 @@ summary:hover {
     }
     .about {
         margin-top: -25px;
-        font-size: 2.9em;
+        font-size: 3.5em;
     }
     .title {
         font-size: 5em;
