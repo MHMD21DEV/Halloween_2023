@@ -245,6 +245,7 @@ summary:hover {
     }
     .title {
         font-size: 3em;
+        margin-top: 20px;
     }
     .cont {
         font-size: 2em;
@@ -297,7 +298,7 @@ summary:hover {
     }
     .title {
         font-size: 3em;
-        margin-top: 10px;
+        margin-top: 20px;
     }
     .cont {
         font-size: 2em;
